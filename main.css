@@ -1,0 +1,46 @@
+body {
+    background-color: peru;
+    margin: 0;
+    padding: 0;
+}
+
+.main-title {
+    font-size: 24px;
+    color: chartreuse;
+    background-color: black;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 20px;
+}
+
+.pic1 {
+    width: 250px;
+    border: solid 10px chartreuse;
+    border-radius: 30px;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.footer {
+    background-color: aliceblue;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.table1 {
+    margin: auto;
+    width: 95%;
+    background-color: rgb(255, 217, 0);
+    text-align: center;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+nav {
+    background-color: azure;
+}
+

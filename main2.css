@@ -1,0 +1,51 @@
+html, body {
+    min-height: 100%;
+}
+
+body {
+    background: linear-gradient(135deg, rgb(0, 35, 67), rgb(0, 0, 0));
+}
+
+.label-1 {
+    background-color: darkcyan;
+    font-size: 28px;
+    text-align: center;
+    color: aliceblue;
+    padding: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    opacity: 0;
+    animation: fade-in 2s ease-in forwards;
+    height: 50px;
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+        font-size: 0;
+    }
+
+    to {
+        opacity: 1;
+        font-size: 28px;
+    }
+}
+
+.label-2 {
+    color: black;
+    font-size: 28px;
+    text-align: center;
+    padding: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 50px;
+    animation: bg-anim 6s infinite;
+}
+
+@keyframes bg-anim {
+    0% {background-color: tomato;}
+    20% {background-color: lime;}
+    40% {background-color: pink;}
+    60% {background-color: yellow;}
+    80% {background-color: white;}
+    100% {background-color: aqua;}
+}

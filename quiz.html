@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Quiz </title>
+    <link rel="stylesheet" href="main3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="title">
+        General Knowledge Quiz
+    </div>
+
+    <div class="container">
+        <!-- progress bar -->
+        <div class="progress-bar-bg">
+            <div class="fill" id="fill"></div>
+        </div>
+
+        <!-- question label -->
+        <div class="question" id="question">
+            Questions will be displayed here. Press Start to begin!
+        </div>
+
+        <!-- option buttons -->
+        <div class="option-box" id="option-box"></div>
+
+        <!-- score label -->
+        <div class="score-label" id="score-label"> You scored 0 point(s) </div>
+
+        <!-- feedback label -->
+        <div class="feedback-label" id="feedback-label"> Good Luck! </div>
+        <!-- start button -->
+        <button class="start-btn" id="start-btn"> START </button>
+    </div>
+
+    <div class="timer">
+        <span id="timer-text"> 15 </span>
+    </div>
+
+    <!--bgm dropdown--> 
+    <!-- bgm dropdown -->
+    <select class="bgm" id="bgm">
+        <option value="kahoot.mp3"> Kahoot Lobby Music </option>
+        <option value="demon_hunter_golden.mp3"> Demon Hunter (Golden) </option>
+        <option value="die_with_a_smile.mp3"> Die With A Smile </option>
+        <option value="grow_a_garden.mp3"> Grow A Garden </option>
+        <option value="67 Christmas.mp3"> The 67 Song </option>
+    </select>
+
+    <button class="music" id="music"> Music On </button>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+
+
+
+
